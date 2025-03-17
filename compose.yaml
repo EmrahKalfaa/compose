@@ -15,6 +15,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   api:
+    network_mode: "host"
     image: emrahkalfa/muslimpro-app:latest
     container_name: dotnet-api-container
     restart: always
