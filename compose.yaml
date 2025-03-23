@@ -24,7 +24,7 @@ services:
       - postgres
     environment:
       - ASPNETCORE_URLS=http://0.0.0.0:8080
-      - ConnectionStrings__DefaultConnection="Host=postgres;Port=5432;Database=postgres;Username=postgres;Password=123456;TrustServerCertificate=true;"
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=postgres;Username=postgres;Password=123456;TrustServerCertificate=true;
     ports:
       - "8080:8080"  
     networks:
