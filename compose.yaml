@@ -17,7 +17,7 @@ services:
       - mynetwork 
 
   api:
-    image: emrahkalfa/muslimpro-app:1.7
+    image: emrahkalfa/muslimpro-app:1.8
     container_name: dotnet-api-container
     restart: always
     depends_on:
